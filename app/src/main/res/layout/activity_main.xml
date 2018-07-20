@@ -1,18 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="roger.monteiro.app.electronicsignmanam.MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
 
     <TextView
+        android:id="@+id/txtForm"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="416dp"
+        android:gravity="bottom"
+        android:textColor="#000"
+        android:text="\nTERMO DE ENTREGA DE RECURSOS DE TECNOLOGIA E POLITICA DE UTILIZAÇÃO\n\n
 
-</android.support.constraint.ConstraintLayout>
+\nData de entrega:
+\nNome:
+\nMatrícula: Função:
+\nÁrea:
+\nEmpresa:
+
+\nEQUIPAMENTOS DISPONIBILIZADOS:
+
+\nEQUIPAMENTO
+\nMARCA
+\nMODELO
+\nS/N
+\nTAG
+\nPIN
+\nACESSO N°
+\nSOFTWARES INSTALADOS:
+\n\n
+*O pacote padrão Manaus Ambiental contem antivírus, Acrobat Reader, Winrar, Jabber
+\n\n
+DECLARAÇÃO
+\n
+Os equipamentos de tecnologia, sistemas operacionais, aplicativos, comunicação de voz e dados, infra- estrutura  de  rede  da  Manaus Ambiental e  suas  coligadas  são  fornecidas  a  você  com  o  propósito  de  serem utilizados para fins profissionais. Não são autorizados para fins ilegais, imorais ou propósitos inadequados.
+\n
+ORIENTAÇÕES DE USO
+\n
+As informações contidas na rede da empresa Manaus Ambiental do e/ou no computador da empresa são de  propriedade  exclusiva  da  empresa Manaus Ambiental. Estes dados não podem ser compartilhados em  qualquer circunstância. dimensionamento do equipamento entregue está de acordo com o escopo de atividades que serão de sua responsabilidade. Nenhuma alteração deste equipamento deve ser feita sem a autorização por escrito do Gestor de Tecnologia.
+\n
+Você não está autorizado a modificar o hardware, sistemas operacionais, instalar aplicativos, e acessórios não aprovados pela Companhia, ou exercer qualquer utilização que comprometa ou potencialmente comprometa a segurança e/ou os dados dos recursos de tecnologia da Companhia. Não é permitido o acesso com perfil de administrador ou a invasão a dados cujo acesso não lhe foram permitidos.
+\n
+A Companhia não permite e não irá tolerar a instalação de software ilegal ou pirata. Também não tolerará a utilização deste equipamento para a duplicação de aplicativos nele instalado ou para o desenvolvimento de qualquer   aplicativo   que  cause  ou  tenha  potencial  de  causar   danos  a  terceiros.  A  menos  que expressamente autorizado por licença, acordos ou outros documentos contratuais.
+\n
+Utilizações inadequadas dos equipamentos de TI incluem:
+\n
+\n• 	A  comunicação  ou  solicitação  de  imagens  ou  de  mensagens  contendo  linguagem  imprópria, pornografia, temas raciais e relacionados à descriminação, qualquer outro material ofensivo ou atividades proibidas por lei, regulamento, ou política da empresa;
+\n• 	A  comunicação  de  mensagens  ou  imagens  de  conteúdo  proprietário  da  empresa,  cliente, fornecedor  ou  outras  informações  de  terceiros  para  aqueles  que  não  são  especificamente autorizados a visualizar essas informações;
+\n• 	A comunicação de informação pessoal pertencente a outro indivíduo sem a autorização desse
+\nindivíduo para aqueles que estarão recebendo as informações;
+\n• 	Monitoramento de rede ou scaneamento, e quaisquer tentativas para contornar controles para ter acesso a computadores, sistemas e recursos que dos quais não lhe tenham concedido acesso.
+\n• 	Uso de sistemas de TI da empresa ou de bens para fins pessoais ou ganhos econômicos para o ganho de uma entidade não relacionada com a Empresa;
+\n• 	Envio de piadas, correntes, opiniões pessoais, etc. que outros tipos de mensagem, com base no endereço de e-mail, poderiam vista como anti-profissional;
+\n• 	Propositalmente permitir ou auxiliar qualquer pessoa ou empresa em violar ou infringir os direitos autorais, patente, segredos comerciais ou outra propriedade intelectual ou direitos de privacidade dos outros;
+\n
+USO PESSOAL
+\n
+A Empresa reconhece que a necessidade de realizar atividades pessoais podem ocasionalmente serem demandadas no horário comercial, portanto, similar ao uso de telefones da Companhia para ligar para casa ou conduta de negócios pessoais, o uso de ativos de TI para assuntos pessoais é permitido, desde que tal utilização seja mantida a um mínimo e não tenha qualquer impacto negativo sobre o seu desempenho profissional, imagem profissional com clientes e colegas, e a reputação da empresa.
+\n
+DIREITO DE PRIVACIDADE
+\n
+Você não pode esperar privacidade em suas comunicações eletrônicas e dos dados armazenados. A Companhia não tem intenção de monitorar acessos a Internet, mensagens de e-mail e/ou o uso dos dados armazenados em uma base regular. No entanto, a Empresa reserva-se o direito de esporadicamente e aleatoriamente acompanhar e analisar essa utilização e verificar a conformidade com as leis, regulamentos e políticas.
+\n
+
+ADMINISTRADOR DE SISTEMAS
+\n
+Se você tem acesso a computadores, servidores, bancos de dados ou redes com o propósito de administração  de  sistemas,  tal  acesso  não  concede  o  direito  ou  autoridade  para  você  analisar  as
+\ninformações em arquivos e/ou comunicações que são administrados, embora seus privilégios possam autorizar tais níveis de acesso.
+\n
+OBRIGAÇÃO DE REPORTAR
+\n
+Você também tem a obrigação de reportar prontamente ao seu Gestor, Diretor, Presidente qualquer atividade que podem violar a segurança da Empresa ou que podem ter impacto negativo sobre as operações ou reputação da empresa.
+\nO usuário tem o dever de reportar a TI qualquer incidente que por ventura venha a ocorrer no equipamento que lhe foi concedido. Não é permitido o reparo do equipamento pelo usuário.
+
+\nAÇÕES DISCIPLINARES
+\n
+A empresa reserva-se o direito de cobrar qualquer dano causado aos equipamentos de tecnologia caso este tenham sido danificados de forma proposital, por uso inadequado ou por falta de zelo;
+\n
+A Empresa também se reserva o direito de não conceder ou de cancelar o acesso a qualquer um dos seus ativos  de  TI  caso  constatado  a  violação  desta  política.  Esta  constatação  poderá  resultar  em  ação disciplinar.
+\n
+Uma violação desta política pode também constituir uma violação da lei e podem ser comunicados às autoridades governamentais se necessário ou se não for exigida a critério exclusivo da Companhia.
+\n
+
+Recebi o equipamento descrito acima, com os softwares instalados e em funcionamento. Estou ciente que é de responsabilidade zelar pela integridade física do equipamento não alterando suas características de software e hardware, bem como removendo partes ou expondo-o a situações críticas de funcionamento que possam afetar o correto funcionamento do sistema.
+\n
+Declaro também que li e concordo com as políticas para utilização de equipamentos de TI.
+\n"/>
+
+        <Button
+            android:id="@+id/signature"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/colorPrimary"
+            android:padding="5dp"
+            android:text="@string/hint_sign" />
+    </LinearLayout>

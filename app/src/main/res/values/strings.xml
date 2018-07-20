@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Assinatura Eletronica MANAM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hint_sign">Concordar e assinar</string>
+    <string name="dialog_title">Assine aqui: </string>
+    <string name="hint_cancel">Cancelar</string>
+    <string name="hint_clear">Limpar</string>
+    <string name="hint_save">Salvar</string>
 </resources>
